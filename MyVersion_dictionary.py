@@ -10,7 +10,7 @@ idk = ["\nUh I didn't quite get that, sorry!\n", "\nUhh not sure what you mean b
 no = ["\nThat word is not in the dictionary. Check again!\n", "\nI'm not quite sure what that word is. Try again!\n", 
 "You sure that's a word?\n", "\nRun that word by my again, will ya?\n"]
 
-data = json.load(open("Dictionary+data+inside/data.json"))
+data = json.load(open("data.json"))
 
 def foo(word):
     if word in data:
